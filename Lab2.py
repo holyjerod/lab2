@@ -1,11 +1,9 @@
-print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python")  # Print the title of the lab
-
 def display_main_menu():  # Define a function called display_main_menu
-    print("display_main_menu")  # Print the function name (for debugging or clarity)
+    print("main_menu")  # Print the function name (for debugging or clarity)
     print("Enter some numbers separated by commas (e.g. 5, 67, 32)")  # Show user instructions
 
 def get_user_input():  # Define a function to get user input and convert it to a list of numbers
-    print("get_user_input")  # Print the function name
+    print("user_input")  # Print the function name
 
     inputstr = input()  # Read the number sequence entered by the user as a string
     
@@ -46,7 +44,8 @@ def calc_median_temperature():  # Define another placeholder function (not imple
     print("calc_median_temperature")  # Print the function name
 
 def main():  # Define the main function where the program starts running
-    print("* ET0735 Lab 2 Ex3")  # Print a label to show this is Exercise 3
+    print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python") # Print the title of the lab
+    print("*ET0735 Lab 2 Ex3")  # Print a label to show this is Exercise 3
     display_main_menu()  # Call the function to display the menu and instructions
     resultlist = get_user_input()  # Call the function to get and process user input
 
