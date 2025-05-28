@@ -12,7 +12,10 @@ bmi = calculate_bmi(height, weight)  # Call the function with user's height and 
 
 if bmi < 18.5:  # Check if BMI is less than 18.5
     print("Underweight")  # If true, print that the user is underweight
+    return -1   # Under weight
 elif bmi > 25.0:  # Check if BMI is greater than 25.0
     print("Overweight")  # If true, print that the user is overweight
+    return 1   # over weight
 else:  # If BMI is between 18.5 and 25.0
     print("Normal weight")  # Print that the user has a normal weight
+    return 0   # Normal weight
