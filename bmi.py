@@ -2,7 +2,7 @@ def calculate_bmi(height, weight):
     bmi = weight / (height ** 2)
     print("Height = " + str(height) + "m")
     print("Weight = " + str(weight) + "kg")
-    print("BMI = " + str(bmi))
+    print("BMI = " + str(round(bmi, 2)))
     return bmi
 
 height = float(input("Enter your height in meters: "))
