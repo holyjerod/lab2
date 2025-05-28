@@ -2,7 +2,7 @@ def calculate_bmi(height, weight):
     bmi = weight / (height ** 2)
     print("Height = " + str(height) + "m")
     print("Weight = " + str(weight) + "kg")
-    print("BMI = " + str(round(bmi, 2)))
+    print("BMI = " + str(bmi))
     return bmi
 
 height = float(input("Enter your height in meters: "))
@@ -17,4 +17,3 @@ elif bmi > 25.0:
     print("Overweight")
 else:
     print("Normal weight")
-
